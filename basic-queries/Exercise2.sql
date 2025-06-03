@@ -1,0 +1,16 @@
+use northwind;
+-- select ProductID, ProductName, UnitPrice from products;
+-- select ProductID, ProductName, UnitPrice from products order by UnitPrice;
+-- select * from products where UnitPrice <= 7.50;
+-- select * from products where UnitsInStock >= 100 order by UnitsInStock desc;
+-- select * from products where UnitsInStock >= 100 order by UnitPrice desc, ProductName asc;
+-- select * from products where UnitsInStock = 0 and UnitsOnOrder >= 1 order by ProductName;
+-- categories
+-- select * from categories; , id = 8
+-- select * from categories where CategoryName like "Sea%";
+-- select FirstName, LastName from employees;
+-- select * from employees where title like "%mana%";
+-- select distinct(Title) from employees;
+-- select * from employees where Salary between 2000 and 2500;
+-- select * from suppliers
+-- select * from suppliers where CompanyName like "%Tok%"
