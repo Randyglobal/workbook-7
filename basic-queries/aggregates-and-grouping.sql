@@ -7,5 +7,5 @@ use northwind;
 -- select CategoryID, avg(UnitPrice) from products group by CategoryID order by CategoryID;
 -- select SupplierID, count(ProductID) from products group by SupplierID having
  -- count(ProductID) >= 5 order by SupplierID
- select ProductID, ProductName, (UnitPrice * UnitsInStock) as InventoryValue from products
- order by InventoryValue desc, ProductName asc
+ -- select ProductID, ProductName, (UnitPrice * UnitsInStock) as InventoryValue from products
+ -- order by InventoryValue desc, ProductName asc;
